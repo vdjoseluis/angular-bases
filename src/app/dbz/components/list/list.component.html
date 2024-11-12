@@ -21,6 +21,6 @@
       <span>{{ hero.power }}</span>
     </div>
 
-    <button class="btn btn-danger" (click)="onDeleteCharacter(i)">X</button>
+    <button class="btn btn-danger" (click)="onDeleteCharacter(hero.id || '')">X</button>
   </li>
 </ul>
